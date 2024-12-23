@@ -1,0 +1,35 @@
+html,body {
+    height: 100%;
+    color: white;
+    place-content: center;
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+.space {
+    height: 50%;
+    width: 50%;
+    background: #07182e;
+    border-radius: 20px;
+    text-align: center;
+    place-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    padding: 20px;
+    
+
+}
+
+.space h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+#clock {
+    font-size: 4rem;
+    color: orangered;
+}
